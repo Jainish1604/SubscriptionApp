@@ -3,7 +3,7 @@ import { PORT } from "./config/env.js";
 
 
 import userRouter from "./routes/user.routes.js";
-import authRouter from "./routes/Auth.routes.js";
+import authRouter from "./routes/auth.routes.js";
 import SubscriptionRouter from "./routes/subscription.routes.js";
 
 const app = express();
